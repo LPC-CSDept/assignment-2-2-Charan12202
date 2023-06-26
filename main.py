@@ -5,6 +5,10 @@ def main():
     Use the same variables: celsius fahrenheit 
     ##################################################
     """
+    celsius= float(input("Enter a celsius value: "))
+    fahrenheit= celsius*(9/5) +32
+
+    print("The temperature in farenheit is " + str(fahrenheit))
 
     """
     ########################################
